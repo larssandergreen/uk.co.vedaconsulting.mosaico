@@ -162,7 +162,7 @@ class CRM_Mosaico_AbDemux {
       'mailing_id_a' => $a['id'],
       'mailing_id_b' => $b['id'],
       'mailing_id_c' => $c['id'],
-      'testing_criteria' => 'full_email',
+      'testing_criteria' => 'subject',
       'group_percentage' => CRM_Utils_Array::value('variantsPct', $a['template_options'], self::DEFAULT_AB_PERCENTAGE),
       'winner_criteria' => 'open',
       'declare_winning_time' => self::DEFAULT_WINNING_TIME,
